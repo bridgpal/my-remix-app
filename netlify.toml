@@ -1,0 +1,11 @@
+[build]
+command = "npm run build"
+publish = "public"
+
+[dev]
+command = "npm run dev"
+targetPort = 3000
+
+[[edge_functions]]
+  path = "/hello"
+  function = "hello"
